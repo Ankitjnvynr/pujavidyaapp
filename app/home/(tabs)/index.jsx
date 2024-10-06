@@ -1,6 +1,7 @@
 import { View, Text, SafeAreaView } from 'react-native'
 import React from 'react'
 import ImageSlider from '../../../components/home/ImageSlider';
+import SiteHome from '../../../components/home/SiteHome';
 
 
 
@@ -14,7 +15,8 @@ const images = [
 export default function index() {
   return (
     <SafeAreaView>
-    <ImageSlider images={images} />
+    {/* <ImageSlider images={images} /> */}
+    <SiteHome/>
   </SafeAreaView>
   )
 }

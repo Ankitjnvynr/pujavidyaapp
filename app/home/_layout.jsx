@@ -11,8 +11,8 @@ export default function HomeLayout() {
         screenOptions={{
           headerTitle: () => (
             <View style={styles.headingBox}>
-              <Text style={styles.headingBig}>Gita Jeewan Geet</Text>
-              <Text style={styles.headingSmall}>Eighteen verse Gita recitation campaign</Text>
+              <Text style={styles.headingBig}>Puja Vidya</Text>
+              <Text style={styles.headingSmall}>Conduct Online Puja at your home</Text>
             </View>
           ),
          

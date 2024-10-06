@@ -1,12 +1,12 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  isLoggedIn: false,
+  isLoggedIn: true,
   user: {
-    name: 'ankit', // User's name
-    phone: '8930840560', // User's phone number
-    dob: '2/9/2024', // User's date of birth
-    address: 'VPO BAkana', // User's address
+    name: "ankit", // User's name
+    phone: "8930840560", // User's phone number
+    dob: "2/9/2024", // User's date of birth
+    address: "VPO BAkana", // User's address
   },
   error: null,
   otpVerified: false, // State to track OTP verification
